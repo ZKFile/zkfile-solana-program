@@ -1,0 +1,25 @@
+[package]
+name = "zkfile"
+version = "0.1.0"
+description = "ZKFile Solana Program - On-chain access control and audit trails"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "zkfile"
+
+[features]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+cpi = ["no-entrypoint"]
+default = []
+
+[dependencies]
+anchor-lang = "0.30.0"
+anchor-spl = "0.30.0"
+
+[dev-dependencies]
+solana-program-test = "~1.18"
+solana-sdk = "~1.18"
+spl-token = { version = "^4", features = ["no-entrypoint"] }
