@@ -19,8 +19,8 @@ ZKFile Solana Program provides on-chain infrastructure for:
 
 | Network | Program ID | Status |
 |---------|-----------|--------|
-| Mainnet-beta | `Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS` | ✅ Live |
-| Devnet | `Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS` | ✅ Live |
+| Mainnet-beta | `ZKFiLeProToCoL1111111111111111111111111111` | ✅ Live |
+| Devnet | `ZKFiLeProToCoL1111111111111111111111111111` | ✅ Live |
 
 ## Installation
 
@@ -245,7 +245,7 @@ import { Connection, clusterApiUrl } from '@solana/web3.js';
 
 const zkfile = new ZKFileClient({
   rpcEndpoint: clusterApiUrl('devnet'),
-  programId: 'Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS'
+  programId: 'ZKFiLeProToCoL1111111111111111111111111111'
 });
 
 // Upload file (calls initialize_file instruction)

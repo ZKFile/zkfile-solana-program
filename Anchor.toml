@@ -6,13 +6,13 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-zkfile = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+zkfile = "ZKFiLeProToCoL1111111111111111111111111111"
 
 [programs.devnet]
-zkfile = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+zkfile = "ZKFiLeProToCoL1111111111111111111111111111"
 
 [programs.mainnet]
-zkfile = "Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS"
+zkfile = "ZKFiLeProToCoL1111111111111111111111111111"
 
 [registry]
 url = "https://api.apr.dev"

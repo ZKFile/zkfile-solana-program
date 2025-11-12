@@ -6,7 +6,7 @@ pub mod errors;
 
 use instructions::*;
 
-declare_id!("Fg6PaFpoGXkYsidMpWTK6W2BeZ7FEfcYkg476zPFsLnS");
+declare_id!("ZKFiLeProToCoL1111111111111111111111111111");
 
 #[program]
 pub mod zkfile {
